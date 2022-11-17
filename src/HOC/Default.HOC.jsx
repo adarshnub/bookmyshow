@@ -5,17 +5,16 @@ import DefaultLayout from "../layouts/Default.layout";
 
 
 
-const DefaultHOC =({ element: Component,...rest })=> {
+const DefaultHOC =(props)=> {
     return (
-        <>
-           <Route {...rest} element= {(props)=> (
+        <> 
+           
             <DefaultLayout>
-                <Component {...props}  />
+                {props.children}
             </DefaultLayout>
-           )
-
-           }
-            /> 
+          
+            
+           
         </>
     );
 }
