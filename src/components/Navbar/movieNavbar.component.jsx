@@ -1,18 +1,18 @@
 import React from "react";
-import {BiChevronRight, BiSearch, BiMenu, BiChevronDown, BiShareAlt} from "react-icons/bi";
+import { BiSearch, BiMenu, BiChevronDown, BiShareAlt} from "react-icons/bi";
 
 
 
 const NavSm =()=>{
     return (
         <>
-        <div className="text-white flex items-center justify-between ">
-            <div>
-                <h3 className="text-xl font-bold">it all starts here</h3>
+        <div className="flex items-center   py-2 ">
+            <div className="text-white w-full h-full ">
+                <h3 className=" text-xl font-bold w-full h-full">it all starts here</h3>
                 
             </div>
-            <div className="w-8 h-8">
-                <BiShareAlt className="w-full h-full"/>
+            <div className="w-6 h-8">
+                <BiShareAlt className="w-full h-full text-white"/>
             </div>
         </div>
         </>
@@ -56,7 +56,7 @@ const NavLg =()=>{
 const MovieNavbar =()=> {
     return (
         <>
-            <nav className="absolute insert-x-0 z-30 bg-opacity-50 backdrop-filter backdrop-blur-lg lg:relative lg:bg-litgray p-4">
+            <nav className="absolute insert-x-0 z-30 bg-opacity-40 backdrop-filter backdrop-blur-lg lg:relative lg:bg-litgray ">
                 <div className="md:hidden"> <NavSm /> </div>
                 <div className="hidden md:block lg:hidden"> <NavSm /> </div>
                 <div className="hidden w-full lg:flex"><NavLg /></div>
