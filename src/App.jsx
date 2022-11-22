@@ -1,6 +1,8 @@
 import {BrowserRouter ,Routes ,Route} from "react-router-dom";
 import DefaultHOC from "./HOC/Default.HOC";
 import HomePage from "./pages/Home.page";
+import Movie from "./pages/Movie.page";
+import MovieHOC from "./HOC/Movie.HOC";
 
 
 // Import css files
@@ -14,7 +16,7 @@ function App() {
     <>
          
      <DefaultHOC path="/" element={<HomePage />} /> 
- 
+     <MovieHOC path ="/movie/id:" element={<Movie />} />
     </>
 
   );

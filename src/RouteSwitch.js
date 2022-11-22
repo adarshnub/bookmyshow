@@ -1,10 +1,10 @@
 import {BrowserRouter,Routes,Route} from "react-router-dom";
-import App from "./App"; 
-import DefaultHOC from "./HOC/Default.HOC";
-import DefaultLayout from "./layouts/Default.layout";
 import HomePage from "./pages/Home.page";
-import HeroCarousel from "./components/HeroCarousel/HeroCarousel.component";
-import EntertainmentCardSlider from "./components/Entertainment/Entertainmentcard.component";
+import DefaultHOC from "./HOC/Default.HOC";
+import Movie from "./pages/Movie.page";
+import MovieHOC from "./HOC/Movie.HOC";
+
+
 
 
 const RouteSwitch = ()=> {
@@ -17,6 +17,10 @@ const RouteSwitch = ()=> {
                     </DefaultHOC>} 
                 
                 />
+
+                <Route path="/movie/:id" element={<MovieHOC>
+                    <Movie />
+                </MovieHOC>} />
             </Routes>
         </BrowserRouter>
     );
