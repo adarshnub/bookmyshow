@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/book-my-show1/static/css/main.0648e240.css",
-    "main.js": "/book-my-show1/static/js/main.632b8301.js",
-    "static/media/slick.svg": "/book-my-show1/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/book-my-show1/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/book-my-show1/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/book-my-show1/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/book-my-show1/index.html",
-    "main.0648e240.css.map": "/book-my-show1/static/css/main.0648e240.css.map",
-    "main.632b8301.js.map": "/book-my-show1/static/js/main.632b8301.js.map"
+    "main.css": "/bookmyshow/static/css/main.e0027108.css",
+    "main.js": "/bookmyshow/static/js/main.632b8301.js",
+    "static/media/slick.svg": "/bookmyshow/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/bookmyshow/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/bookmyshow/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/bookmyshow/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/bookmyshow/index.html",
+    "main.e0027108.css.map": "/bookmyshow/static/css/main.e0027108.css.map",
+    "main.632b8301.js.map": "/bookmyshow/static/js/main.632b8301.js.map"
   },
   "entrypoints": [
-    "static/css/main.0648e240.css",
+    "static/css/main.e0027108.css",
     "static/js/main.632b8301.js"
   ]
 }
