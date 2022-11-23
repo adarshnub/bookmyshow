@@ -12,9 +12,9 @@ const NavSm =()=>{
     return (
         <>
         
-            <div className="text-white ">
+            <div className="text-white  ">
             <div className="">
-                <h3 className=" text-xl font-bold p-6 ">{movie.original_title}</h3>
+                <h3 className=" text-xl font-bold p-6 w-full">{movie.original_title}</h3>
                 
             </div>
            {/* <div className="w-6 h-6">
@@ -62,7 +62,7 @@ const NavLg =()=>{
 const MovieNavbar =()=> {
     return (
         <>
-            <nav className="absolute insert-x-0 z-30 bg-opacity-40 backdrop-filter backdrop-blur-lg lg:relative lg:bg-litgray ">
+            <nav className="absolute insert-x-0 z-30 bg-opacity-40 backdrop-filter backdrop-blur-lg lg:relative lg:bg-litgray  w-full">
                 <div className="md:hidden"> <NavSm /> </div>
                 <div className="hidden md:block lg:hidden"> <NavSm /> </div>
                 <div className="hidden w-full lg:flex"><NavLg /></div>

@@ -19,7 +19,7 @@ useEffect(() => {
     setMovie(getMovieData.data);
   };
   requestMovie();
-},[]);
+},[id]);
 
   return (
     <>
