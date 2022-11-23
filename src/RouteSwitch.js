@@ -5,12 +5,16 @@ import Movie from "./pages/Movie.page";
 import MovieHOC from "./HOC/Movie.HOC";
 import Plays from "./pages/Plays.page";
 
+//context provider
+import MovieProvider from "./context/movie.context";
+
 
 
 
 const RouteSwitch = ()=> {
     return (
         <BrowserRouter>
+        <MovieProvider>
             <Routes>
                 <Route path="/" element={<DefaultHOC>
                     
@@ -20,14 +24,15 @@ const RouteSwitch = ()=> {
                 
                 />
 
-                <Route path="/movie/id:" element={<MovieHOC>
+                <Route path="/movie/:id" element={<MovieHOC>
                     <Movie />
                 </MovieHOC>} />
 
-                <Route path="/plays/id:" element={<DefaultHOC>
+                <Route path="/plays/:id" element={<DefaultHOC>
                     <Plays />
                 </DefaultHOC>} />
             </Routes>
+            </MovieProvider>    
         </BrowserRouter>
     );
 };
