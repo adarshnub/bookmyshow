@@ -5,6 +5,7 @@ import HomePage from "./pages/Home.page";
 import Movie from "./pages/Movie.page";
 import MovieHOC from "./HOC/Movie.HOC";
 import Plays from "./pages/Plays.page";
+import React from "react";
 
 
 // Import css files
