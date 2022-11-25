@@ -1,6 +1,7 @@
 {
   "name": "book-my-show1",
   "version": "0.1.0",
+  "homepage": "https://adarshnub.github.io/bookmyshow",
   "private": false,
   "dependencies": {
     "@headlessui/react": "^1.7.4",
