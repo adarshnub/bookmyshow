@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-This is a bookmyshow clone higghly responsive website with seperate builds for small,medium and large devices using
+This is a bookmyshow clone highly responsive website with seperate builds for small,medium and large devices using
 React
 TailwindCSS
 TMDB (for api)
