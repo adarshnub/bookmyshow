@@ -5,7 +5,7 @@ TailwindCSS
 TMDB (for api)
 
 A demo video of working my bookmyshow-clone website frontend with api integration from TMDB database
-https://clipchamp.com/watch/tnQ1NGFXWF2
+(https://clipchamp.com/watch/tnQ1NGFXWF2 ) :point_left:
 
 In the project directory, you can run:
 
